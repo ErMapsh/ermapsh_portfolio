@@ -94,16 +94,16 @@ export const MovingBorder = ({
     }
   });
 
-  const x = useTransform(
+  const x: any = useTransform(
     progress,
     (val) => pathRef.current?.getPointAtLength(val).x
   );
-  const y = useTransform(
+  const y: any = useTransform(
     progress,
     (val) => pathRef.current?.getPointAtLength(val).y
   );
 
-  const transform = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;
+  const transform: any = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;
 
   return (
     <>

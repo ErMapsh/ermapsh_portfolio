@@ -46,7 +46,7 @@ function Hero() {
             and Next.js developer from India.
           </p>
 
-          <a>
+          <a href="#about">
             <MagicButton
               title="Show My Work"
               icon={<FaLocationArrow />}

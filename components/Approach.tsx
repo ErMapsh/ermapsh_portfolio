@@ -68,7 +68,7 @@ const Approach = () => {
 
 export default Approach;
 
-const Card = ({
+const Card: any = ({
   title,
   icon,
   children,
