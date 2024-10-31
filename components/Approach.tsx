@@ -68,7 +68,7 @@ const Approach = () => {
 
 export default Approach;
 
-const Card: any = ({
+const Card = ({
   title,
   icon,
   children,
@@ -186,7 +186,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon: any = ({ className, ...rest }: any) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
