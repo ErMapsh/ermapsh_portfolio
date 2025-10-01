@@ -32,7 +32,8 @@ function Hero() {
       <div className="flex justify-center relative my-20 z-900">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            {/* Dynamic Web Magic with Next.js */}
+            ✨Dynamic Web & Mobile Magic with Next.js & React Native
           </p>
           <TextGenerateEffect
             filter={true}
@@ -42,8 +43,10 @@ function Hero() {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m ErMapsh, a passionate React Native, Angular, React.js,
-            and Next.js developer from India.
+            {/* Hi! I&apos;m Mahesh, a passionate React Native, Angular, React.js,
+            and Next.js developer from India. */}
+            Hi, I’m Mahesh 👋 I build dynamic Web & Mobile experiences using
+            React Native, Angular, Next.js, Lumen, Express.js, Springboot.
           </p>
 
           <a href="#about">
